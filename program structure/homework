@@ -1,0 +1,22 @@
+public class Main {
+
+    public static void main(String[] args) {
+        java.until.Scanner myScanner = new Scanner(System.in);
+
+        System.out.println("Введите пожалуйста, первое слагаемое");
+        int value1 = myScanner.nextInt();
+
+        System.out.println("Введите пожалуйста, второе слагаемое");
+        int value2 = myScanner.nextInt();
+
+        System.out.println("Введите пожалуйста, третье слагаемое");
+        int value3 = myScanner.nextInt();
+
+        int result sumMethod(value1, value2, value3);
+        System.out.println("Сумма чисел равна " + result);
+    }
+
+    static int sumMethod(int val1, int val2, int val3){
+        return val1 + val2 + val3;
+    }
+}
